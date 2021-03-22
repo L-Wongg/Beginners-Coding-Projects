@@ -1,0 +1,25 @@
+# Creating a weighted exam score average
+
+# Entering how many exams you have done
+number_of_exams = int(input("Enter number of exams: "))
+# print(number_of_exams)
+
+# Entering how many credits these exams cover
+total_credits = int(input("Enter how many credits these exams cover: "))
+# print(total_credits)
+
+# Begin with average of 0 and then add up the percentages from each exam
+average = 0
+for exam in range(number_of_exams):
+    score = int(input("Enter exam score: "))
+    exam_credits = int(input("Enter how many credits this exam covered: "))
+    average = average + score * exam_credits / total_credits
+print("Your average is", average)
+
+# Create classification
+below_60 = '3rd'
+above_60 = 2.1
+above_70 = '1st'
+if average is below 60 it is a '3rd'
+if average is above 60 it is a 2.1
+if average is above 70 it is a '1st'
