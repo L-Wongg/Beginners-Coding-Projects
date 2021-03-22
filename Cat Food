@@ -1,0 +1,31 @@
+# one week = multiply by 7 and add a new line for 'days'
+
+cats = 10
+cans = 2
+days = 7
+
+total = cats * cans * days
+
+output = str(cats) + " cats eats " + str(total) + " cans"
+print(output)
+
+
+
+# EXAMPLE PLACEMENT
+user_name = 'sarah_1987'
+age = 23
+
+output = '{} is {} years old' .format(user_name, age)
+print(output)
+
+
+
+#SIMPLIER VERSION OF CATS
+cats = 10
+cans = 2
+days = 7
+
+total = cats * cans * days
+
+output = 'You need {} cans for 7 days' .format(total)
+print(output)
