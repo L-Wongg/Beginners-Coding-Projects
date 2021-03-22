@@ -1,0 +1,22 @@
+import turtle
+
+side_length = 150    # Size of each side
+angle = 120           # Degree the 'arrow' turns
+
+turtle.color('blue', 'blue')
+turtle.begin_fill()
+
+turtle.speed('fastest')
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.forward(side_length)
+turtle.right(angle)
+
+turtle.end_fill()
+
+turtle.done()
