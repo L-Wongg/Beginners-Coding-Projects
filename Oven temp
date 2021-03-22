@@ -1,0 +1,29 @@
+today = input('What day is it?')
+
+is_monday = today == 'Monday'
+print('Today is Monday: {}' )
+
+Exercise 3.4:
+meal_price = float(input('How much did the meal cost? '))
+discount_choice = input('Do you have a discount? y/n ')
+is_discount = discount_choice == 'y'
+
+if True == 0<20:
+
+
+# Exercise 3.5:
+temperature = float(input('What is the temperature of the oven? '))
+
+if temperature > 200:
+    print("The oven is too hot")
+elif temperature < 150:
+    print('The oven is too cold')
+elif temperature == 180:
+    print("The oven is at the perfect temperature")
+else:
+    print("the temperature is close enough")
+
+import random
+random_integer = random.randint(1, 100)
+print(random_integer)
+
