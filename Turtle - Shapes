@@ -1,0 +1,44 @@
+#int()
+# apples_string = '12'
+# total_apples = int(apples_string) + 5
+#
+# print(total_apples)
+
+# Exercise 2.2.
+# friends = int(input('How many friends are at your house? '))
+# pizzas = friends * 0.5
+#
+# print('You need {} pizzas for {} friends'.format(pizzas, friends))
+
+# Module: Code that someone else has written that you can reuse in your programs
+# turtle.speed('slowest')
+# turtle.speed('fastest')
+import turtle
+
+turtle.color('red', 'pink')
+turtle.begin_fill()
+
+turtle.speed('slowest')
+turtle.forward(100)
+turtle.right(90)
+
+turtle.forward(100)
+turtle.right(90)
+
+turtle.forward(100)
+turtle.right(90)
+
+turtle.forward(100)
+turtle.right(90)
+
+turtle.end_fill()
+
+turtle.done()
+
+
+# OR
+# side_length = 200
+# angle = 90
+#
+# turtle.forward(side_length)
+# turtle.right(angle)
