@@ -1,0 +1,36 @@
+# Coding with Turtle package
+
+# First, import 'Turtle'
+import turtle
+
+# Let's get a nice set-up in turtle
+turtle.bgcolor("black")     # Background colour
+turtle.pensize(2)     # Pen Size
+turtle.color("red")
+turtle.speed(0)
+
+# Draw a square
+# turtle.forward(50)   # Moves forward
+# turtle.left(90)        # Moves left  90 degrees
+# turtle.forward(50)
+# turtle.left(90)
+# turtle.forward(50)
+# turtle.left(90)
+# turtle.forward(50)
+# turtle.left(90)
+# turtle.done()    # Allows turtle to stay on the screen
+
+
+# Project in turtle - Creates nice graph
+# for colours in ["red", "orange", "yellow", "green", "blue", "purple"]:
+#     turtle.color(colours)
+#     turtle.circle(150)
+#     turtle.left(60)
+# turtle.done()
+
+for i in range(6):
+    for colours in ["red", "orange", "yellow", "green", "blue", "purple"]:
+        turtle.color(colours)
+        turtle.circle(150)
+        turtle.left(10)
+turtle.done()
